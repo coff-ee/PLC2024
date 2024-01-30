@@ -8,7 +8,7 @@ name2 = if name /= "" then name else "no name"
 pname3 = print "Bob"
 
 myprogram = print (1 + m)  -- compiler error: m undefined
---m = 1                      -- unless this line is also present
+m = 1                      -- unless this line is also present
 
 -- sequencing several imperative programs:
 prg1 = do
